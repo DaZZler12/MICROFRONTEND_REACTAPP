@@ -1,0 +1,20 @@
+{
+  "name": "my-microfrontend-app",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "main-app",
+    "first-app",
+    "second-app"
+  ],
+  "scripts": {
+    "dev": "concurrently \"cross-env NODE_ENV=development yarn workspace main-app dev\" \"cross-env NODE_ENV=development yarn workspace first-app dev\" \"cross-env NODE_ENV=development yarn workspace second-app dev\"",
+    "build": "concurrently \"cross-env NODE_ENV=production yarn workspace main-app build\" \"cross-env NODE_ENV=production yarn workspace first-app build\" \"cross-env NODE_ENV=production yarn workspace second-app build\"",
+    "serve": "concurrently \"cross-env NODE_ENV=production yarn workspace main-app serve\" \"cross-env NODE_ENV=production yarn workspace first-app serve\" \"cross-env NODE_ENV=production yarn workspace second-app serve\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "concurrently": "^7.3.0",
+    "cross-env": "^7.0.3"
+  }
+}

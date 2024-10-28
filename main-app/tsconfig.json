@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+      "jsx": "react",
+      "esModuleInterop": true,
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": ["es2015", "dom"],
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "typeRoots": ["node_modules/@types", "node_modules"]
+
+  }
+}
