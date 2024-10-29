@@ -142,4 +142,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/DaZZler12/MICROFRONTEND_REACTAPP?tab=MIT-1-ov-file) for more information.
