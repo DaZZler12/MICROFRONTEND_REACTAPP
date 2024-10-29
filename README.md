@@ -12,6 +12,8 @@ This project demonstrates a microfrontend architecture using React and Vite. Thi
 - [Building and Deployment](#building-and-deployment)
 - [Contributing](#contributing)
 - [License](#license)
+- [Project Preview](#project-preview)
+
 
 ## Introduction
 
@@ -145,3 +147,11 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 Distributed under the MIT License. See [LICENSE](https://github.com/DaZZler12/MICROFRONTEND_REACTAPP?tab=MIT-1-ov-file) for more information.
+
+
+## Project Preview
+
+https://github.com/user-attachments/assets/8db25fd0-6b41-484f-8369-fd869046c255
+
+
+
